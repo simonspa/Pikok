@@ -1,0 +1,33 @@
+{
+	"name": "Pikok",
+	"version": "1.0",
+	"description": "Automatically add Piwik Analytics code to any theme.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Simon Baerlocher",
+		"link": "http://sbaerlocher.ch"
+	},
+
+	"data": {
+		"piwik_url": {
+			"label": "Piwik URL",
+			"info": "The URL is the address where they can call Piwik",
+			"type": "string",
+			"validation": {
+				"type": "regex",
+				"rule":	"^[a-zA-Z0-9-.]+.[a-zA-Z]$",
+				"error_message": "This is not a valid URL. This is an example of a URL sbaerlocher.ch"
+			}
+		},
+		"piwik_siteid": {
+			"label": "Piwik Site Nummber",
+			"info": "In your Piwik installation under \"all websites\" you will find your Pade ID (ID column)",
+			"type": "string",
+			"validation": {
+				"type": "regex",
+				"rule":	"[0-9]{1,99}",
+				"error_message": "No Pages ID"
+			}
+		}
+	}
+}
