@@ -8,7 +8,7 @@ Requirements
 
 1. [Koken](http://koken.me) installation (0.8.0 or higher)
 
-2. [Piwik](http://piwik.org) installs (Is an open source application)
+2. [Piwik](http://piwik.org) installs (is an open source application)
 
 Installation
 ------------

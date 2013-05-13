@@ -20,13 +20,13 @@
 			}
 		},
 		"piwik_site_id": {
-			"label": "Piwik Site Nummber",
+			"label": "Piwik Site Number",
 			"info": "In your Piwik installation under \"all websites\" you will find your Pade ID (ID column)",
 			"type": "string",
 			"validation": {
 				"type": "regex",
 				"rule":	"[0-9]{1,99}",
-				"error_message": "Not a valid Site ID. Only Integers allowed.
+				"error_message": "Not a valid site ID. Only integers allowed"
 			}
 		}
 	}
