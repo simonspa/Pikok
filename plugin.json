@@ -19,14 +19,14 @@
 				"error_message": "This is not a valid URL. This is an example of a URL sbaerlocher.ch"
 			}
 		},
-		"piwik_siteid": {
+		"piwik_site_id": {
 			"label": "Piwik Site Nummber",
 			"info": "In your Piwik installation under \"all websites\" you will find your Pade ID (ID column)",
 			"type": "string",
 			"validation": {
 				"type": "regex",
 				"rule":	"[0-9]{1,99}",
-				"error_message": "No Pages ID"
+				"error_message": "Not a valid Site ID. Only Integers allowed.
 			}
 		}
 	}
