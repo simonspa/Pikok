@@ -1,6 +1,6 @@
 {
 	"name": "Pikok",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Automatically add Piwik Analytics code to any theme.",
 	"demo": "http://koken.me",
 	"author": {
@@ -15,7 +15,7 @@
 			"type": "string",
 			"validation": {
 				"type": "regex",
-				"rule":	"^[a-zA-Z0-9-.]+.[a-zA-Z]$",
+				"rule":	"[a-zA-Z0-9-.]+.[a-zA-Z]/?[a-zA-Z0-9-.]+$",
 				"error_message": "This is not a valid URL. This is an example of a URL sbaerlocher.ch"
 			}
 		},
