@@ -25,6 +25,7 @@ class Pikok extends KokenPlugin {
           g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
         })();
 </script>
+<noscript><p><img src="http://{$this->data->piwik_url}/piwik.php?idsite={$this->data->piwik_site_id}" style="border:0;" alt="" /></p></noscript>
 OUT;
 
 	}
